@@ -1,10 +1,10 @@
-# To Do List
-> "To Do List" is a simple yet powerful app that displays a list of tasks, and allows to add and remove them as well as mark them as done. For this application, we used local storage to save the data so that it is permanently stored in your browser.
+# Leaderboard
+> "Leaderboard" is an app that keeps a record of a leaderboard by making use of a site that provides an API for that purpose. It allows to add and remove scores from different browsers or locations and keep them safe.
 
 ## Built With
 
 - HTML, CSS and JavaScript
-- Using GITHub, Visual Studio Code, Webpack
+- Using GITHub, GitFlow, Visual Studio Code, Webpack
 
 ## Getting Started
 
@@ -14,9 +14,10 @@ To get a local copy up and running follow these steps:
 
 - Clone the repository to your hard drive.
 - Use your browser of choice to see the results (./dist/index.html).
-- Alternatively execute 'npm start'.
+- Execute npm install to be able to make changes.
+- You can run the live server by executing 'npm start'.
 - Use Visual Code to edit './src/index.html' and './src/index.js' files.
-- Run 'npm run build' to build the dist folder from the changed src files.
+- Use 'npm run build' to build the dist folder from the changed src files.
 ### Deployment
 
 - Change your 'webpack.config.js' mode from development to production.
@@ -24,7 +25,7 @@ To get a local copy up and running follow these steps:
 - Deploy '.dist/' contents to your http server.
 ### Live Demo
 
-[https://acolombo1.github.io/todolist/dist/](https://acolombo1.github.io/todolist/dist/)
+[https://acolombo1.github.io/leaderboard/dist/](https://acolombo1.github.io/leaderboard/dist/)
 ## Author
 
 👤 **Aldo Colombo**
@@ -32,16 +33,9 @@ To get a local copy up and running follow these steps:
 - GitHub: [@acolombo1](https://github.com/acolombo1)
 - Twitter: [@aldocolombo](https://twitter.com/aldocolombo)
 - LinkedIn: [Aldo Colombo](https://www.linkedin.com/in/aldo-colombo-2156009)
-
-## Contributor
-
-👤 **José Ramón Castaños**
-- GitHub: [@jr-cast](https://github.com/jr-cast)
-
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
 ## Acknowledgments
 
 - ![](https://img.shields.io/badge/Microverse-blueviolet)
