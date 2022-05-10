@@ -108,3 +108,7 @@ typings/
 /node_modules
 .vscode
 /coverage
+
+# my code reservoire
+codefragment.txt
+/works
