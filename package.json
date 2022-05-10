@@ -1,0 +1,26 @@
+{
+  "name": "leaderboard",
+  "version": "1.0.0",
+  "description": "> \"Leaderboard\" is an app that keeps a record of a leaderboard by making use of a site that provides an API for that purpose. It allows to add and remove scores from different browsers or locations and keep them safe.",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acolombo1/leaderboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acolombo1/leaderboard/issues"
+  },
+  "homepage": "https://github.com/acolombo1/leaderboard#readme",
+  "devDependencies": {
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
