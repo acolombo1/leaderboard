@@ -7,11 +7,12 @@
 <script defer src="main.js"></script></head>
 <body>
   <h1>Leaderboard</h1>
+  <div id="label" class="label">&nbsp;</div>
   <section class="mainsection">
     <div class="leftsection">
       <div class="title">
         <h2>Recent Scores</h2>
-        <a id="Refresh-btn" href="javascript:void(0);" class="button">Refresh</a>
+        <button id="Refresh-btn" class="button" type="button">Refresh</button>
       </div>
       <ul class="leaderboard">
         <li class="listitem">Name: 100</li>
@@ -28,9 +29,8 @@
       <form>
         <p><input class="formitem" type="text" id="name" name="name" placeholder="Your Name" required
             minlength=2 maxlength=30></p>
-        <p><input class="formitem" type="text" id="score" name="score" placeholder="Your Score" required
-            minlength=2 maxlength=12></p>
-        <p class="buttoncontainer"><button class="button" type="submit">Submit</button></p>  
+        <p><input class="formitem" type="number" id="score" name="score" placeholder="Your Score" required></p>
+        <p class="buttoncontainer"><button id="Submit-btn" class="button" type="button">Submit</button></p>  
       </form>
     </div>
   </section>

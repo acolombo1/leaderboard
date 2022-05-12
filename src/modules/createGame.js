@@ -16,6 +16,7 @@ export default async (game) => {
       const myresult = jsonresult.result;
       const gameid = myresult.substr(myresult.search('ID: ') + 4, 20);
       localStorage.setItem('gameid', gameid);
+      message(`Game ${game} given ID: ${gameid}`, 'black');
     } else {
       message(`API request error: ${response.status}`);
     }
