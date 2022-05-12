@@ -6,6 +6,33 @@
   <title>Leaderboard!</title>
 <script defer src="main.js"></script></head>
 <body>
-  <h1>Leaderboard!!</h1>
+  <h1>Leaderboard</h1>
+  <div id="label" class="label">&nbsp;</div>
+  <section class="mainsection">
+    <div class="leftsection">
+      <div class="title">
+        <h2>Recent Scores</h2>
+        <button id="Refresh-btn" class="button" type="button">Refresh</button>
+      </div>
+      <ul class="leaderboard">
+        <li class="listitem">Name: 100</li>
+        <li class="listitem">Name: 20</li>
+        <li class="listitem">Name: 50</li>
+        <li class="listitem">Name: 78</li>
+        <li class="listitem">Name: 125</li>
+        <li class="listitem">Name: 77</li>
+        <li class="listitem">Name: 42</li>
+      </ul>
+    </div>
+    <div class="rightsection">
+      <h2>Add your Score</h2>
+      <form>
+        <p><input class="formitem" type="text" id="name" name="name" placeholder="Your Name" required
+            minlength=2 maxlength=30></p>
+        <p><input class="formitem" type="number" id="score" name="score" placeholder="Your Score" required></p>
+        <p class="buttoncontainer"><button id="Submit-btn" class="button" type="button">Submit</button></p>  
+      </form>
+    </div>
+  </section>
 </body>
 </html>
