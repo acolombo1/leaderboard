@@ -11,8 +11,20 @@ h1 {
   margin: 0;
 }
 
+.label {
+  margin-top: 70px;
+  text-align: center;
+  width: 100%;
+  color: red;
+}
+
+.hideslowly {
+  color: rgb(245, 245, 245);
+  transition: color 3s ease-out;
+}
+
 .mainsection {
-  margin-top: 100px;
+  margin-top: 0;
   display: flex;
   justify-content: space-around;
 }
@@ -40,6 +52,7 @@ h2 {
 }
 
 .button {
+  font-size: 1rem;
   border: none;
   padding: 8px;
   text-align: center;
@@ -48,6 +61,7 @@ h2 {
   background-color: grey;
   display: inline-block;
   cursor: pointer;
+  border-radius: 2px;
   box-shadow: grey 2px 2px 5px;
 }
 
