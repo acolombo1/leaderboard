@@ -1,9 +1,15 @@
 body {
   background-color: rgb(245, 245, 245);
+  background-image: url('./5564410.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
   color: rgb(49, 49, 49);
   padding: 20px;
+  margin: 20px;
+  border: 2px solid blue;
 }
 
 h1 {
@@ -27,7 +33,7 @@ h1 {
 }
 
 .hideslowly {
-  color: rgb(245, 245, 245);
+  color: rgba(245, 245, 245, 0);
   transition: color 3s ease-out;
 }
 
@@ -66,11 +72,25 @@ h2 {
   text-align: center;
   text-decoration: none;
   color: white;
-  background-color: grey;
+  background-color: rgb(129, 167, 143);
   display: inline-block;
   cursor: pointer;
-  border-radius: 2px;
+  border-radius: 5px;
   box-shadow: grey 2px 2px 5px;
+}
+
+.button:hover {
+  background-color: rgb(152, 190, 190);
+  transition: 0.2s;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:active {
+  box-shadow: none;
+  background-color: rgb(129, 167, 143);
 }
 
 .leaderboard {
@@ -100,4 +120,34 @@ h2 {
 .buttoncontainer {
   text-align: right;
   width: 70%;
+}
+
+a {
+  color: rgb(49, 49, 49);
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 0.875rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .label {
+    margin-top: 30px;
+  }
+
+  .leftsection {
+    margin: 10px;
+  }
+
+  .rightsection {
+    margin: 10px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
 }
