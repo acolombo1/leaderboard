@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 import './style.css';
 import createGame from './modules/createGame.js';
 import refresh from './modules/refresh.js';

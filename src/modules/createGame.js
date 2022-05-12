@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 import message from './message.js';
 
 export default async (game) => {
