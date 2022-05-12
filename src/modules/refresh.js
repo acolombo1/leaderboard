@@ -18,7 +18,7 @@ export default async () => {
         for (let i = 0; i < scores.length; i += 1) {
           const li = document.createElement('li');
           li.classList.add('listitem');
-          li.innerHTML = `${scores[i].user}: ${scores[i].score}`;
+          li.innerHTML = `<span>${scores[i].user}</span><span>${scores[i].score}</span>`;
           ul.appendChild(li);
           message('Refreshed ok!', 'black');
         }

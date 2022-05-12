@@ -106,6 +106,8 @@ h2 {
 .listitem {
   padding: 5px 15px;
   list-style: none;
+  display: flex;
+  justify-content: space-between;
 }
 
 .listitem:nth-child(odd) {
