@@ -15,6 +15,7 @@ body {
 h1 {
   font-size: 2.5rem;
   margin: 0;
+  text-shadow: 2px 2px grey;
 }
 
 .label {
@@ -56,6 +57,7 @@ h1 {
 h2 {
   font-size: 2rem;
   margin: 0 20px 0 0;
+  text-shadow: 1px 1px grey;
 }
 
 .title {
@@ -97,6 +99,8 @@ h2 {
   margin-top: 30px;
   padding: 0;
   border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: grey 5px 5px 10px;
 }
 
 .listitem {
@@ -112,9 +116,25 @@ h2 {
   background-color: rgb(184, 182, 202);
 }
 
+.listitem:nth-child(1) {
+  border-radius: 5px;
+  border: 0;
+}
+
+.listitem:last-child {
+  border-radius: 5px;
+  border: 0;
+}
+
 .formitem {
-  margin: 10px 0;
+  font-size: 1rem;
+  padding: 5px;
+  margin: 15px 0;
   width: 70%;
+  border: 1px solid black;
+  border-radius: 3px;
+  outline: none;
+  box-shadow: grey 2px 2px 5px;
 }
 
 .buttoncontainer {
